@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.catalogo {
+    text-align: center;
+    border: 2px solid blue;
+    padding: 20px;
+    display: inline-block;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.producto {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+}
